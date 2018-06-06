@@ -1,0 +1,11 @@
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\bin\Debug\netcoreapp2.0\SampleMVC.deps.json
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\bin\Debug\netcoreapp2.0\SampleMVC.runtimeconfig.json
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\bin\Debug\netcoreapp2.0\SampleMVC.runtimeconfig.dev.json
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\bin\Debug\netcoreapp2.0\SampleMVC.dll
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\bin\Debug\netcoreapp2.0\SampleMVC.pdb
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\obj\Debug\netcoreapp2.0\SampleMVC.csprojAssemblyReference.cache
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\obj\Debug\netcoreapp2.0\SampleMVC.csproj.CoreCompileInputs.cache
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\obj\Debug\netcoreapp2.0\SampleMVC.AssemblyInfoInputs.cache
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\obj\Debug\netcoreapp2.0\SampleMVC.AssemblyInfo.cs
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\obj\Debug\netcoreapp2.0\SampleMVC.dll
+C:\Workshop\ASP Core\ASP Core Juni 2018\SampleMVC\obj\Debug\netcoreapp2.0\SampleMVC.pdb

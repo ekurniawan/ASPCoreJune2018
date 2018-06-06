@@ -10,6 +10,10 @@ namespace SampleMVC.Controllers
 {
     public class MahasiswaController : Controller
     {
+        private List<Mahasiswa> listMahasiswa = new List<Mahasiswa>() {
+            new Mahasiswa { Nim="22002321",Nama="Erick",Alamat="Wahidin 5-25" },
+            new Mahasiswa {Nim="22002322",Nama="Candra",Alamat="Jambi"}
+        };
         public IActionResult Index(int id,string kota,string telp)
         {
             ViewData["nama"] = "Erick Kurniawan";
@@ -22,13 +26,18 @@ namespace SampleMVC.Controllers
             return View();
         }
 
+        public IActionResult GetMahasiswa(){
+            return View(listMahasiswa);
+        }
+
         public IActionResult HitungSegitiga()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult HitungSegitiga(double alas,double tinggi){
+        public IActionResult HitungSegitiga(double alas,double tinggi)
+        {
             double hasil = 0.5*alas*tinggi;
             ViewBag.Hasil = hasil;
             return View();

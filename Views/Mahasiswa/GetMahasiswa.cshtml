@@ -1,0 +1,17 @@
+
+<h2>Daftar Mahasiswa</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>Nim</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+    </tr>
+    @foreach(var data in Model){
+        <tr>
+            <td>@data.Nim</td>
+            <td>@data.Nama</td>
+            <td>@data.Alamat</td>
+        </tr>
+    }
+</table>

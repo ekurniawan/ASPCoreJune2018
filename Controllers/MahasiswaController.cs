@@ -21,5 +21,11 @@ namespace SampleMVC.Controllers
 
             return View();
         }
+
+        public IActionResult HitungSegitiga(double alas,double tinggi){
+            return View();
+        }
+
+        
     }
 }

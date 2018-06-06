@@ -1,4 +1,11 @@
+@{
+    double alas = 12;
+    double tinggi = 12;
+    double hasil = 0.5*alas*tinggi;
+}
 
 <h2>Daftar Mahasiswa</h2>
 <p>Nama : @ViewData["nama"]</p>
+<p>Alamat : @ViewBag.Alamat </p>
+<p>Hasil: @hasil</p>
 <p>Menampilkan daftar Mahasiswa</p>

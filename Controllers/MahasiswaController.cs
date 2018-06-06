@@ -13,6 +13,8 @@ namespace SampleMVC.Controllers
         public IActionResult Index()
         {
             ViewData["nama"] = "Erick Kurniawan";
+            ViewBag.Alamat = "Jl Wahidin 5-25";
+
             return View();
         }
     }

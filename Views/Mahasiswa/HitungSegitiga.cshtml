@@ -5,5 +5,8 @@
     <input type="text" name="alas" /><br><br>
     <label for="tinggi">Masukan Tinggi :</label><br>
     <input type="text" name="tinggi" /><br><br>
+    @if(ViewBag.Hasil!=null){
+        <label>Hasilnya: @ViewBag.Hasil</label><br>
+    }
     <button type="submit">Hitung</button>
 </form>

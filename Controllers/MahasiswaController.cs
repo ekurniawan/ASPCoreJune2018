@@ -30,8 +30,8 @@ namespace SampleMVC.Controllers
         [HttpPost]
         public IActionResult HitungSegitiga(double alas,double tinggi){
             double hasil = 0.5*alas*tinggi;
-            //ViewBag.Hasil = hasil;
-            return Content("Hasil : "+hasil);
+            ViewBag.Hasil = hasil;
+            return View();
         }
 
 
